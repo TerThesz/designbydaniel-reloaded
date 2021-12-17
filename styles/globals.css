@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  nav ul li {
+    @apply inline-block mx-[20px] transition-all duration-100 ease-linear
+         hover:text-dano_blue cursor-pointer text-[17px]
+           /* Hover */
+           hover:font-semibold;
+  }
+
+  nav ul li.active {
+    @apply font-semibold;
+  }
+}
