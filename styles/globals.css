@@ -11,18 +11,20 @@
     box-sizing: border-box;
   }
 
-  body {
-    background-color: black;
-  }
-
   nav ul li {
     @apply inline-block mx-[20px] transition-all duration-100 ease-linear
-         hover:text-dano_blue cursor-pointer text-[17px]
-           /* Hover */
-           hover:font-semibold;
+           cursor-pointer text-[17px];
+  }
+
+  nav ul li:not(.active) {
+    @apply hover:font-semibold hover:text-dano_blue;
   }
 
   nav ul li.active {
     @apply font-semibold;
+  }
+
+  section {
+    @apply w-full h-screen;
   }
 }
