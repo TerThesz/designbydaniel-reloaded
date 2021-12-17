@@ -11,10 +11,6 @@
     box-sizing: border-box;
   }
 
-  body {
-    background-color: black;
-  }
-
   nav ul li {
     @apply inline-block mx-[20px] transition-all duration-100 ease-linear
            cursor-pointer text-[17px];
@@ -26,5 +22,9 @@
 
   nav ul li.active {
     @apply font-semibold;
+  }
+
+  section {
+    @apply w-full h-screen;
   }
 }
