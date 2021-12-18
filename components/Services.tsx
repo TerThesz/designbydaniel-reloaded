@@ -1,10 +1,10 @@
 const Services = () => {
   return (
-    <section className="bg-[rgb(7,7,7)] relative">
+    <section className="bg-[rgb(7,7,7)] relative text-white">
       <h2>Services</h2>
       <p className="subtitle">List of available services.</p>
 
-      <div className="w-full mt-[100px] grid grid-cols-3 grid-rows-none gap-[50px] text-white services-grid">
+      <div className="w-full mt-[100px] grid grid-cols-3 grid-rows-none gap-[50px] services-grid">
         <div>
           <h3><span>01.</span> Graphic Design</h3>
 
@@ -22,7 +22,7 @@ const Services = () => {
         </div>
       </div>
 
-      <p className="absolute w-full bottom-[100px] left-0 text-center text-white opacity-40 font-roboto text-[18px]">I require a 50% (50% of the estimated price) deposit for all new clients. The final price of all services is based on the length and difficulty of the project.</p>
+      <p className="absolute w-full bottom-[100px] left-0 text-center opacity-40 font-roboto text-[18px]">I require a 50% (50% of the estimated price) deposit for all new clients. The final price of all services is based on the length and difficulty of the project.</p>
     </section>
   );
 }

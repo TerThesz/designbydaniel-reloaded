@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Services from '../components/Services';
 import Portfolio from '../components/Portfolio';
+import Reviews from '../components/Reviews';
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       <Header />
       <Services />
       <Portfolio />
+      <Reviews />
     </>
   );
 }

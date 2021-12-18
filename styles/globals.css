@@ -37,7 +37,7 @@
   }
 
   section h2 {
-    @apply text-white text-3xl font-semibold text-[2rem];
+    @apply text-3xl font-semibold text-[2rem];
   }
 
   section .subtitle {
@@ -58,5 +58,25 @@
 
   .services-grid p {
     @apply mt-[20px] font-roboto text-[18px] opacity-40;
+  }
+
+  .reviews-grid div {
+    @apply w-full h-full text-center;
+  }
+
+  .reviews-grid h3 {
+    @apply text-[17px] font-bold;
+  }
+
+  .reviews-grid .review-subtitle {
+    @apply opacity-60;
+  }
+
+  .reviews-grid .content {
+    @apply mt-[17px] pt-[20px] leading-8 font-roboto text-[18px] opacity-60;
+  }
+
+  .reviews-grid .content {
+    @apply before:content-['\"'] after:content-['\"'];
   }
 }

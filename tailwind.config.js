@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'manrope': ['Manrope', 'Arial'],
-        'roboto': ['Roboto', 'Arial'],
+        'manrope': ['Manrope'],
+        'roboto': ['Roboto'],
       },
       colors: {
         'dano_blue': '#6495ED',
