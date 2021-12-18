@@ -11,6 +11,10 @@
     box-sizing: border-box;
   }
 
+  a, p, h1, h2, h3 {
+    @apply m-0 p-0;
+  }
+
   nav ul li {
     @apply inline-block mx-[20px] transition-all duration-100 ease-linear
            cursor-pointer text-[17px];
@@ -25,6 +29,34 @@
   }
 
   section {
-    @apply w-full h-screen;
+    @apply w-full h-screen py-[200px] px-[350px];
+  }
+
+  section * {
+    @apply font-manrope;
+  }
+
+  section h2 {
+    @apply text-white text-3xl font-semibold text-[2rem];
+  }
+
+  section .subtitle {
+    @apply text-darker_dano_blue text-[17px] font-roboto mt-[2px];
+  }
+
+  .services-grid div {
+    @apply w-full h-full;
+  }
+
+  .services-grid h3 {
+    @apply text-[20px] font-semibold;
+  }
+
+  .services-grid span {
+    @apply text-darker_dano_blue mr-[10px];
+  }
+
+  .services-grid p {
+    @apply mt-[20px] font-roboto text-[18px] opacity-40;
   }
 }

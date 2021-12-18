@@ -8,7 +8,8 @@ module.exports = {
         'roboto': ['Roboto', 'Arial'],
       },
       colors: {
-        'dano_blue': '#6495ED'
+        'dano_blue': '#6495ED',
+        'darker_dano_blue': '#4e87f0'
       }
     },
   },
