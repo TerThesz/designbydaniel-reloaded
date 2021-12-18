@@ -13,7 +13,7 @@ const Services = () => {
         <div>
           <h3><span>02.</span> Animations</h3>
 
-          <p>Simple animations, transitions and scenes (mainly for streamers). I don't do complicated animations. A draft fee may be applicable.</p>
+          <p>Simple animations, transitions and scenes (mainly for streamers). I don&apos;t do complicated animations. A draft fee may be applicable.</p>
         </div>
         <div>
           <h3><span>03.</span> Video Editing</h3>

@@ -13,7 +13,7 @@ const Reviews = () => {
         <div>
           <h3>Martin P.</h3>
           <p className="review-subtitle">Artiffine</p>
-          <p className="content">Great satisfaction. I approached Daniel with a request to create an animation for the hover buttons on our website www.artiffine.com. We had a finished marble canvas in jpg, and we wanted to turn it into an animation. After less successful attempts by other graphic designers, Daniel's result was the final one that met our high standards of quality design. I recommend</p>
+          <p className="content">Great satisfaction. I approached Daniel with a request to create an animation for the hover buttons on our website www.artiffine.com. We had a finished marble canvas in jpg, and we wanted to turn it into an animation. After less successful attempts by other graphic designers, Daniel&apos;s result was the final one that met our high standards of quality design. I recommend</p>
         </div>
         <div>
           <h3>Květoslav H.</h3>
