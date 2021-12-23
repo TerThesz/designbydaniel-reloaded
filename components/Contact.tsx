@@ -1,5 +1,7 @@
 import { AiOutlineMail, AiOutlineInstagram, AiOutlineDribbble, AiOutlineBehance, AiOutlineYoutube, AiOutlineFacebook } from 'react-icons/ai';
 
+// TODO: links
+
 const Contact = () => {
   return (
     <div className="contact relative h-[650px] bg-[rgba(0,_0,_0,_0.979)] p-[200px_350px_100px_350px] w-full text-white font-manrope">
