@@ -30,7 +30,7 @@ const Contact = () => {
       </div>
 
       <p className="mt-[60px] text-gray-500 font-manrope">
-        Website made by: <a target="_blank" href="https://terthesz.eu" className="text-dano_blue">TerThesz</a>
+        Website made by: <a target="_blank" rel="noreferrer" href="https://terthesz.eu" className="text-dano_blue">TerThesz</a>
       </p>
     </div>
   );
