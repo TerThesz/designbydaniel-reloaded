@@ -91,4 +91,30 @@
   .about-grid p {
     @apply text-[#494949] font-normal leading-[1.8rem] text-[19px] font-roboto;
   }
+
+  .contact svg {
+    @apply w-[25px] h-[25px] m-0 p-0;
+  }
+
+  .contact li * {
+    @apply inline-block;
+  }
+
+  .contact li {
+    @apply text-left;
+  }
+
+  .contact li p {
+    @apply ml-[10px] text-[17px] opacity-40;
+  }
+
+  .contact li:hover svg,
+  .contact svg:hover {
+    @apply text-dano_blue;
+  }
+
+  .contact li,
+  .contact svg {
+    @apply cursor-pointer;
+  }
 }

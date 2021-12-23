@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import Portfolio from '../components/Portfolio';
 import Reviews from '../components/Reviews';
 import About from '../components/About';
+import Contact from '../components/Contact';
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,8 @@ const Home: NextPage = () => {
       <Portfolio />
       <Reviews />
       <About />
+
+      <Contact />
     </>
   );
 }
