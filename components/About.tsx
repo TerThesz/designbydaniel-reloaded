@@ -13,7 +13,7 @@ const About = () => {
       <section className="about-grid h-[50vh] bg-[#dee1ec] grid grid-cols-3 grid-rows-none">
         <div>
           <h3>Precision.</h3>
-          <p>Precision is important. That's why I try as hard as I can. I want both sides to be happy.</p>
+          <p>Precision is important. That&apos;s why I try as hard as I can. I want both sides to be happy.</p>
         </div>
         <div>
           <h3>Communication.</h3>
