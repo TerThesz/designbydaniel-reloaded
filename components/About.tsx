@@ -10,8 +10,19 @@ const About = () => {
         </p>
       </section>
 
-      <section className="h-[50vh] bg-[#dee1ec]">
-
+      <section className="about-grid h-[50vh] bg-[#dee1ec] grid grid-cols-3 grid-rows-none">
+        <div>
+          <h3>Precision.</h3>
+          <p>Precision is important. That's why I try as hard as I can. I want both sides to be happy.</p>
+        </div>
+        <div>
+          <h3>Communication.</h3>
+          <p>Communication is one of the most important things. I always want all communication to be without any conflicts.</p>
+        </div>
+        <div>
+          <h3>Satisfaction.</h3>
+          <p>Satisfied clients are the most important thing for me. So I always wish my clients will be satisfied.</p>
+        </div>
       </section>
     </div>
   );

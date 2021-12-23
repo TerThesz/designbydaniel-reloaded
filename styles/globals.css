@@ -79,4 +79,16 @@
   .reviews-grid .content {
     @apply before:content-['\"'] after:content-['\"'];
   }
+
+  .about-grid div {
+    @apply max-w-[250px] h-full;
+  }
+
+  .about-grid h3 {
+    @apply text-dano_blue font-medium text-[18px] mb-[15px] font-roboto;
+  }
+
+  .about-grid p {
+    @apply text-[#494949] font-normal leading-[1.8rem] text-[19px] font-roboto;
+  }
 }
