@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <Reviews />
       <About />
 
-      <Anchor name="contact" />
+      <Anchor name="contact" className="abstract bottom-[100vh]" />
       <Contact />
     </>
   );
