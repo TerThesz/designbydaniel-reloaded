@@ -18,11 +18,16 @@ const Navbar = () => {
 
       <div className="w-full h-full grid place-content-center">
         <ul>
-          <li className="active">Home</li>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>About Me</li>
-          <li>Contact</li>
+          {/* @ts-ignore */}
+          <li className="active" href="#header">Home</li>
+          {/* @ts-ignore */}
+          <li href="#services">Services</li>
+          {/* @ts-ignore */}
+          <li href="#portfolio">Portfolio</li>
+          {/* @ts-ignore */}
+          <li href="#about">About Me</li>
+          {/* @ts-ignore */}
+          <li href="#contact">Contact</li>
         </ul>
       </div>
 

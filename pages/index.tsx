@@ -6,18 +6,27 @@ import Portfolio from '../components/Portfolio';
 import Reviews from '../components/Reviews';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Anchor from '../components/Anchor';
 
 const Home: NextPage = () => {
   return (
     <>
       <Navbar />
       
+      <Anchor name="header" />
       <Header />
+
+      <Anchor name="services" />
       <Services />
+
+      <Anchor name="portfolio" />
       <Portfolio />
+
+      <Anchor name="about" />
       <Reviews />
       <About />
 
+      <Anchor name="contact" />
       <Contact />
     </>
   );
