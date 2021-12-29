@@ -6,7 +6,7 @@ import logo from '../public/images/logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="z-50 text-white w-full h-[4.5rem] grid grid-rows-none grid-cols-[300px_1fr_300px] font-roboto fixed top-0 bottom-0">
+    <nav className="z-50 transition-all duration-100 ease-linear opacity-90 text-white w-full h-[4.5rem] grid grid-rows-none grid-cols-[300px_1fr_300px] font-roboto fixed top-0 bottom-0">
       <div className="grid place-content-center">
         <Image
           src={logo}
